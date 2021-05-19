@@ -1,0 +1,31 @@
+{
+  "name": "webpack-vue-2020",
+  "version": "1.0.0",
+  "description": "从零搭建webpack+vue脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deep-hug/webpack-vue-2020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deep-hug/webpack-vue-2020/issues"
+  },
+  "homepage": "https://github.com/deep-hug/webpack-vue-2020#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "vue-loader": "^15.9.7",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
+}
