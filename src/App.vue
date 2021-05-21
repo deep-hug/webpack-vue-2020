@@ -1,23 +1,11 @@
 <template>
-    <div>
-        this is an Vue app
-    </div>
+    <router-view></router-view>
 </template>
 
 <script>
 export default {
-    data () {
-        return {
-            
-        }
-    },
-    created () {
-        
-    },
-    methods: {
-        
-    }
-}
+
+};
 </script>
 
 <style>
