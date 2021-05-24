@@ -1,0 +1,175 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": "607ea4374d20cbe2d168d737",
+            "author_id": "515005e9604b3d512109bb17",
+            "tab": "share",
+            "content": "<div class=\"markdown-text\"><p>五月是一个好月份，五月的武汉也很漂亮。2020 年，疫情肆虐，我们无奈停止了 Node 地下铁一段时间。今年 3 月份我们重启了 Node 地下铁；而今年五月，我们决定与大家一起去见证一下武汉焕新的活力，在武汉举办一场热干面专场（第 11 期）。</p>\n<p>Node 地下铁沙龙是阿里巴巴淘系前端发起的一个线下技术沙龙。非常感谢有赞联合举办本期活动。</p>\n<h2>活动信息</h2>\n<ul>\n<li><strong>本期主题</strong>：从社区到企业级实践</li>\n<li><strong>本期出品人</strong>：死月；</li>\n<li><strong>主持人</strong>：艺璇；</li>\n<li><strong>圆桌主持人</strong>：狼叔（i5ting）；</li>\n<li><strong>时间</strong>：2021 年 5 月 23 日 13:00 ~ 18:00；</li>\n<li><strong>地点</strong>：武汉保利国际中心 35 层 P1-2。</li>\n</ul>\n<p>本期我们邀请到了淘宝、蚂蚁集团、有赞、腾讯以及 Wiredcraft 的小伙伴，为大家献上新的一期 Node.js 话题盛宴，炒一炒武汉这个美丽城市的 Node.js 热度。活动最后，还有神秘嘉宾**狼叔（i5ting）**为大家主持圆桌讨论和抽奖。真的血赚！</p>\n<p>感兴趣的小伙伴们，无论你们是已经在职工作，还是尚在学校进修，都欢迎来报名呀。Node 地下铁报名免费，只要通过审核即可来参加。**名额有限，先到先得。**望大家互相传阅。</p>\n<blockquote>\n<p>本期官网：<a href=\"https://subway.midwayjs.org/\">https://subway.midwayjs.org/</a></p>\n<p>报名链接：<a href=\"https://www.huodongxing.com/event/7596833409300\">https://www.huodongxing.com/event/7596833409300</a></p>\n</blockquote>\n<h2>话题介绍</h2>\n<h3>Node.js 在 TARS 微服务框架中的实践</h3>\n<p><img src=\"//static.cnodejs.org/FnSk20oDl0RaRhRupa-2jCqK-9Fo\" alt=\"image.png\"></p>\n<blockquote>\n<p>邹成卓 @腾讯 高级前端工程师</p>\n</blockquote>\n<p>TARS Node.js 是开源微服务框架 TARS 的 Node.js 语言部分，为 Node.js 服务端提供了一套完整的开发运维环境。包含了进程管理、日志输出、调用监控、特性监控、RPC 调用、快速扩缩容等功能，让 Node.js 开发者可以专注于业务代码，其它交给 TARS。</p>\n<h3>Node.js &amp; Midway.js 源码贡献指北</h3>\n<p><img src=\"//static.cnodejs.org/FnIqqd_BtjPowS1mxBioW6Eck9K5\" alt=\"image.png\"></p>\n<blockquote>\n<p>刘子健 @淘宝 / Node.js Core Collaborator</p>\n</blockquote>\n<p>开源生态是现代软件开发中极其重要的组成部分，以 Node.js 为例，自发布以来持续有社区的开发者为其贡献代码。本次分享也将从 Node.js 源码出发，讲解其源码构成与贡献方式。同时我们也会讲解阿里巴巴的开源 Node.js 框架 Midway 开发方式，帮助新手更快的投入的社区开源项目的建设中。</p>\n<h3>复杂系统的原理及其在 Node.js 系统开发中的应用</h3>\n<p><img src=\"//static.cnodejs.org/Frz8neRk38efUCCpIwRc5G_wB86b\" alt=\"image.png\"></p>\n<blockquote>\n<p>王韬 <a href=\"/user/Wiredcraft\">@Wiredcraft</a> 架构师</p>\n</blockquote>\n<p>在软件行业，大量系统架构设计和工作流程设计还是基于经验或直觉，特定环境中特定决策的后果难以预测，团队成员的决策能力难以高效提升，我们需要用更加工程化的方式，做出高质量的决策。本次分享介绍一些复杂系统领域的基本原理，以及在使用 Node.js 进行开发中的应用。</p>\n<h3>App Engine——一个轻量级的 Node.js 服务托管和调度平台</h3>\n<p><img src=\"//static.cnodejs.org/Fly7yNP2ISvn4dw_XlGXZjco36Xk\" alt=\"image.png\"></p>\n<blockquote>\n<p>王干（KK） @有赞 技术专家</p>\n</blockquote>\n<p>有赞 App Engine（应用引擎）是一套面向前端开发及运维的一站式 Node.js 服务容器化平台，为前端开发者提供统一和规范化的 Node.js 服务研发模式。本次分享将为大家介绍有赞 App Engine 的设计理念、实践总结以及背后的技术原理。</p>\n<h3>JavaScript 全栈高效研发在语雀中的实践</h3>\n<p><img src=\"//static.cnodejs.org/FtCsHoEri9rSIVXYYEMy8mUmRZoT\" alt=\"image.png\"></p>\n<blockquote>\n<p>赵珊珊（西临） @蚂蚁集团 前端专家</p>\n</blockquote>\n<p>语雀作为一个复杂的 Node.js 应用，如何以小规模的研发团队支撑业务的快速发展是我们不断探索的命题。这几年，我们在业务实践中总结出了一些能够有效保障研发效率的全栈开发经验，本次分享将为大家一一介绍。</p>\n<p><img src=\"https://img.alicdn.com/imgextra/i3/O1CN01ayQ7Wh1SOafw66J2N_!!6000000002237-0-tps-750-2273.jpg\" alt></p>\n</div>",
+            "title": "5 月 23 日Node 地下铁武汉热干面专场来啦，开启报名中---mock",
+            "last_reply_at": "2021-05-22T14:48:04.586Z",
+            "good": false,
+            "top": true,
+            "reply_count": 39,
+            "visit_count": 34933,
+            "create_at": "2021-04-20T09:51:51.711Z",
+            "author": {
+                "loginname": "XadillaX",
+                "avatar_url": "https://avatars.githubusercontent.com/u/2842176?v=4&s=120"
+            }
+        },
+        {
+            "id": "601e668a03d797cf5b66f437",
+            "author_id": "54009f5ccd66f2eb37190485",
+            "tab": "share",
+            "content": "<div class=\"markdown-text\"><h2>PPT地址</h2>\n<p><a href=\"https://github.com/midwayjs/subway-station/tree/master/No.10.HangZhou.Let%E2%80%99s%20imagine%202021\">https://github.com/midwayjs/subway-station/tree/master/No.10.HangZhou.Let’s imagine 2021</a>!</p>\n<h2>喜欢的自取</h2>\n<p>本次采用线上直播方式，会使用阿里的会议室，此次Node Party使用Node地下铁品牌。会在视频号：AlibabaF2E和Bilibili：支付宝体验科技同时直播。</p>\n<p>大家有啥想法可以随时补充。</p>\n<h2>主题分享</h2>\n<h3>1、《基于 Addon 的 Node.js 性能监控与线上故障定位解决方案》</h3>\n<p>选题理由：<strong>如果说2020国内Node.js社区最大的事件，我以为是 Easy-Monitor 3.0 版本开源了，它是一款Node.js 应用性能监控与线上故障定位解决方案。</strong></p>\n<p>Topic简介：旨在 Node.js 的开源生态工具链上，做一些能帮助到想使用和正在使用 Node.js 的开发者更好地感知自己的 Node.js 应用状态，以更好地面对来自性能和稳定性方面的挑战。</p>\n<p>个人简介：<a href=\"https://github.com/hyj1991/\">hyj1991</a>，开源 Node.js 性能监控工具 <a href=\"https://github.com/hyj1991/easy-monitor\">Easy-Monitor</a> 作者，参与了开源框架 Egg.js 的维护，以前 AliNode 的核心开发者之一，前端架构师，目前在社区一直致力于 Node.js 基础保障性质工具链的进一步完善。</p>\n<p><img src=\"//static.cnodejs.org/Fkm3ogNc8lbsjFMQatCF54qgyUul\" alt=\"16126047795218.jpg\"></p>\n<h3>2、《Midway Hooks — 更具生产力的全栈框架：全栈、“零” API、Hooks 开发后端》</h3>\n<p>选题理由：<strong>Midway Hooks是社区Web方向比较有新意的项目，面向FaaS让开发更简单，面向React开发者，让同构全栈更简单。</strong></p>\n<p>简介：<a href=\"https://github.com/midwayjs/hooks\">Midway Hooks</a> 是为前端开发者打造的全栈框架，具有以下优势：☁️ 全栈，在 src 目录中开发前后端代码、🌈 “零”API，极其简单的后端 Api 开发与调用方式、🌍 使用 “React Hooks” 开发后端。本次分享则将为大家介绍 Midway Hooks 的用法、设计理念以及背后的技术原理。</p>\n<p>个人简介：刘子健（花名繁易，Lxxyx：Node.js），淘系技术部-前端架构团队成员。开源爱好者，Node.js Core Collaborator，目前致力于打造更具生产力的全栈框架：Midway Hooks。</p>\n<p><img src=\"//static.cnodejs.org/FsqpQzPYFIz0xzXGGIwf5CxjFSML\" alt=\"16126048815842.jpg\"></p>\n<h3>3、《比Webpack5快4倍的AirpackCDN — 新一代组件分发网络构建之路》</h3>\n<p>选题理由：<strong>Deno带动了http import的发展，同时也使得社区从Commonjs到ESM的趋势日渐明显，这就促使社区会出现新一代CDN技术的诞生。</strong></p>\n<p>Topic简介：AirpackCDN 是适用于现代 Web 应用程序的组件分发网络 (Components Delivery Network for modern web apps)，是集团内第一个为现代 JavaScript 应用程序设计和优化的 CDN（注：还未开源，筹备中）。通过 Airpack 网络的分发的组件可以直接在浏览器中使用，且针对浏览器做了大量优化，几乎所有软件包都可以以 ES Module 的格式对外输出，我们致力于构建一个可以依赖的核心基础设施。</p>\n<p>作者简介：赵吉彤（花名：牧曈），阿里云体验技术团队前端工程师，主攻前端中后台、工程化方向，开源爱好者，资深极客。</p>\n<p><img src=\"//static.cnodejs.org/FjDKce673wxx97YeqhT62wpx94oO\" alt=\"16125037643179.jpg\"></p>\n<h3>4、《iMove—致力于提高开发效率的js框架：开启可视化编排的新型开发模式》</h3>\n<p>选题理由：<strong>前端智能化解决了设计稿到代码的UI渲染部分，但逻辑代码如何生成依然是一个难题。iMove算一个不错的探索</strong></p>\n<p>Topic简介：<a href=\"https://github.com/imgcook/imove\">iMove</a>是为开发者打造的支持可视化编排的js框架，具有以下优势：🔥逻辑可组装：接口和UI在最小粒度上的复用；☁️流程可视化：最小单元通过流程图进行编排；🌈 逻辑复用：将逻辑进行沉淀，变成可复用的能力；🌲运营配置收敛：降低运营操作成本。本次分享则将为大家介绍 iMove 的使用方法、底层原理、设计思想，以及此框架是如何解决低代码开发中的痛点问题的。</p>\n<p>个人简介：杨佩（花名冷卉），阿里淘系技术部f(x) team团队成员，iMove核心成员，开源爱好者。目前致力于打造用于提高开发效率的新一代智能化基建。</p>\n<p><img src=\"//static.cnodejs.org/FjXLoj0EpAmLhgACJK5Sw5OuJUMD\" alt=\"16126049650090.jpg\"></p>\n<h3>5、《SSR framework 2.0 -同时支持React, Vue 的服务端渲染能力》</h3>\n<p>选题理由：<strong>从egg-react-ssr到ykfe/ssr是一个不错的演进，Serverless-side render概念也慢慢被大家接受，2020年淘宝双十一使用了ssr，拼多多的页面渲染也使用了ssr，可见ssr是一个不可缺少的Web应用技术。</strong></p>\n<p>Topic简介：<a href=\"https://github.com/ykfe/ssr\">SSR framework 2.0</a>集成自ykfe/ssr 1.0，同时支持React, Vue 的服务端渲染能力，以插件化的形式支持任意服务端框架与前端框架的结合，同时支持Serverless方式或传统Node.js应用方式部署.</p>\n<p>个人简介：张宇昂，微信前端工程师，前阿里巴巴前端工程师，专注于 Node.js 与前端的结合在企业的实践落地，ykfe/ssr框架核心开发者, 下一代前端构建工具Vite爱好者和Rust 爱好者。</p>\n<p><img src=\"//static.cnodejs.org/FjnIQLlOsfUyoaFmt7_vbWrVWVmi\" alt=\"image.png\"></p>\n<h2>大佬圆桌会</h2>\n<p>待定：本次线下在杭州，大果、流司、雷姆、死月</p>\n<p>还没有沟通完成</p>\n<h2>直播信息</h2>\n<ul>\n<li>时间：2021年3月6日，下午2点-6点</li>\n<li>Obs推流</li>\n</ul>\n<h3>1）微信视频号：AlibabaF2E</h3>\n<p><img src=\"//static.cnodejs.org/FtM_sWKCWUbmiXTx36xP0dv50n7E\" alt=\"image.png\"></p>\n<h3>2）Bilibili：支付宝体验科技</h3>\n<p><img src=\"//static.cnodejs.org/FnaquwPttUJx7haOT51yjR8kekzP\" alt=\"image.png\"></p>\n<h2>活动安排</h2>\n<p>稍后给出</p>\n<h2>沟通群</h2>\n<p>如果想参加活动，反馈意见都可以加入下面这个钉钉群</p>\n<p><img src=\"//static.cnodejs.org/Ft0nBD73FkFw8CBbceGjo0HW29iu\" alt=\"image.png\"></p>\n</div>",
+            "title": "2021年3月6日Node Party PPT",
+            "last_reply_at": "2021-05-18T07:16:12.331Z",
+            "good": false,
+            "top": true,
+            "reply_count": 20,
+            "visit_count": 56656,
+            "create_at": "2021-02-06T09:51:06.662Z",
+            "author": {
+                "loginname": "i5ting",
+                "avatar_url": "https://avatars.githubusercontent.com/u/3118295?v=4&s=120"
+            }
+        },
+        {
+            "id": "5fdb44d70f99cb37f45e3410",
+            "author_id": "56f3686f02c237a73a1a8acf",
+            "tab": "share",
+            "content": "<div class=\"markdown-text\"><p>RT.</p>\n<p>请大家遵守法律法规，勿发布不合规内容。</p>\n</div>",
+            "title": "请大家遵纪守法，勿发布不合规内容",
+            "last_reply_at": "2021-05-16T09:12:12.880Z",
+            "good": false,
+            "top": true,
+            "reply_count": 122,
+            "visit_count": 62455,
+            "create_at": "2020-12-17T11:45:27.667Z",
+            "author": {
+                "loginname": "thonatos",
+                "avatar_url": "https://avatars.githubusercontent.com/u/958063?v=4&s=120"
+            }
+        },
+        {
+            "id": "60aafedf4d20cbda71695b98",
+            "author_id": "609a2d1f4d20cbf9766923e5",
+            "tab": "share",
+            "content": "<div class=\"markdown-text\"><h1>Pomelo　tcp 连接测试</h1>\n<blockquote>\n<p>接着上一讲《Pomelo点击:Test Game Server 按钮后流程》。</p>\n</blockquote>\n<p>pomelo提供了hybirdconnector和sioconnector，hybirdconnector支持TCP、WebSocket，<a href=\"http://xn--sioconnectorsocket-ue50b34y.io\">sioconnector支持socket.io</a>。</p>\n<p>我们创建项目的时候，选择的是: 1 for websocket(native socket)，那么项目还是可以支持tcp连接的，我们这边就使用原项目测试。</p>\n<p>测试tcp的话，我们只要启动game-server即可:</p>\n<pre class=\"prettyprint language-text\"><code>$&gt; polemo start\n</code></pre><p>启动日志中我们主要关注clientPort和port，其中clientPort是用来监听客户端的连接，port端口用来给后端提供服务。</p>\n<blockquote>\n<p>[2021-05-20 20:30:02.478] [INFO] pomelo - [/data/gocpplua/pomelo/pomelo_prj/HelloWorld/game-server/node_modules/pomelo/lib/master/starter.js] Executing /home/SENSETIME/chenqi1/.nvm/versions/node/v14.16.1/bin/node --inspect=127.0.0.1:16772,/data/gocpplua/pomelo/pomelo_prj/HelloWorld/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientHost=127.0.0.1,<code>clientPort=3010</code>,frontend=true,args= --inspect=127.0.0.1:16772,serverType=connector locally</p>\n</blockquote>\n<p>然后使用nc(全名叫 netcat)工具，充当客户端，去连接3010端口。</p>\n<p>我当时去发送数据的数据，调试了很一会，因为不知道tcp对应的包的格式，以及如何在命令行发送１６进制数据，那这边我就直接剧透了吧。</p>\n<ul>\n<li>一、协议</li>\n</ul>\n<p>假设我发送的数据如下:</p>\n<blockquote>\n<p>{“sys”:1}</p>\n</blockquote>\n<p>那么对应16进制:</p>\n<blockquote>\n<p>\\x7b\\x22\\x73\\x79\\x73\\x22\\x3a\\x31\\x7d</p>\n</blockquote>\n<p>这边需要注意:</p>\n<ol>\n<li>需要是Json数据</li>\n<li>数据中需要&quot;sys&quot;字段</li>\n<li>发送的数据格式说明\n第１字节\t第２～４字节\t　第５字节以及其后\n协议类型\t数据长度\t　　数据</li>\n</ol>\n<p>所以，我们最后组装出来的数据就是:</p>\n<blockquote>\n<p>“\\x01\\x00\\x00\\x09\\x7b\\x22\\x73\\x79\\x73\\x22\\x3a\\x31\\x7d”</p>\n</blockquote>\n<ul>\n<li>二、十六进制发送</li>\n</ul>\n<p>我们可以将十六进制写到文件中发送，也可以在终端发送，我以终端为例:</p>\n<pre class=\"prettyprint language-text\"><code>$&gt; echo -n -e &quot;\\x01\\x00\\x00\\x09\\x7b\\x22\\x73\\x79\\x73\\x22\\x3a\\x31\\x7d&quot; | nc 1\n27.0.0.1 3010\n</code></pre><p>服务器返回数据:</p>\n<blockquote>\n<p>{“code”:200,“sys”:{“heartbeat”:3,“dict”:{“connector.entryHandler.entry”:1,“connector.entryHandler.publish”:2,“connector.entryHandler.subscribe”:3},“routeToCode”:{“connector.entryHandler.entry”:1,“connector.entryHandler.publish”:2,“connector.entryHandler.subscribe”:3},“codeToRoute”:{“1”:“connector.entryHandler.entry”,“2”:“connector.entryHandler.publish”,“3”:“connector.entryHandler.subscribe”},“dictVersion”:“vhs1TJfFaUAZcUaS9t3zTQ==”,“useDict”:true,“protos”:{“server”:{},“client”:{},“version”:“xT9OvpsqULwrUv2IpdUD4Q==”},“useProto”:true}}</p>\n</blockquote>\n<p>如果你打算自己Debug的话，可以在tcpsocket.js中的ondata函数中添加断点,函数如下:</p>\n<pre class=\"prettyprint language-text\"><code>var ondata = function(socket, chunk) {\n  if(socket.state === ST_CLOSED) {\n    throw new Error(&#x27;socket has closed&#x27;);\n  }\n\n  if(typeof chunk !== &#x27;string&#x27; &amp;&amp; !Buffer.isBuffer(chunk)) {\n    throw new Error(&#x27;invalid data&#x27;);\n  }\n\n  if(typeof chunk === &#x27;string&#x27;) {\n    chunk = new Buffer(chunk, &#x27;utf8&#x27;);\n  }\n\n  var offset = 0, end = chunk.length;\n\n  while(offset &lt; end &amp;&amp; socket.state !== ST_CLOSED) {\n    if(socket.state === ST_HEAD) {\n      offset = readHead(socket, chunk, offset);\n    }\n\n    if(socket.state === ST_BODY) {\n      offset = readBody(socket, chunk, offset);\n    }\n  }\n\n  return true;\n};\n</code></pre><p>具体如何生成工程和调试，请参照前面两篇文章。</p>\n</div>",
+            "title": "【Pomelo】　tcp 连接测试",
+            "last_reply_at": "2021-05-24T01:18:23.080Z",
+            "good": false,
+            "top": false,
+            "reply_count": 0,
+            "visit_count": 41,
+            "create_at": "2021-05-24T01:18:23.080Z",
+            "author": {
+                "loginname": "gocpplua",
+                "avatar_url": "https://avatars.githubusercontent.com/u/46804866?v=4&s=120"
+            }
+        },
+        {
+            "id": "6095d08b4d20cbdcb4690f94",
+            "author_id": "5ad9731bba60fcc66b7b86aa",
+            "tab": "share",
+            "content": "<div class=\"markdown-text\"><p>Curl 是一个常用的命令行数据传输工具，可以方便的从命令行创建网络请求。它支持众多协议，支持如 HTTP, HTTPS, FTP, FTPS, SFTP, IMAP, SMTP, POP3 等等协议。Curl 提供了很多强大的功能，我们可以利用它来进行 HTTP 请求、上传 /下载文件等，且支持 Cookie 、用户密码验证、代理隧道、限速等。</p>\n<p>文章链接：<a href=\"https://www.liuxing.io/blog/curl/\">https://www.liuxing.io/blog/curl/</a></p>\n</div>",
+            "title": "CURL 使用指南",
+            "last_reply_at": "2021-05-23T15:06:02.508Z",
+            "good": false,
+            "top": false,
+            "reply_count": 1,
+            "visit_count": 464,
+            "create_at": "2021-05-07T23:43:07.146Z",
+            "author": {
+                "loginname": "liuxing",
+                "avatar_url": "https://avatars.githubusercontent.com/u/17724186?v=4&s=120"
+            }
+        },
+        {
+            "id": "60aa0c1b4d20cb48a0695973",
+            "author_id": "60a9f1924d20cbe1706958dc",
+            "tab": "share",
+            "content": "<div class=\"markdown-text\"><h3>leetoffer 的前生今世</h3>\n<p>2017年准备参加校招面试，在网上找各大公司的面试攻略和面试题，那时候网上还没有专门整理面试题的地方（可能有，但那时没有找到），也没有各种整理面试题的微信公众号，于是就有了做这个网站的想法。</p>\n<p>其实这个网站的雏形从2018年就开始写了，但那时我前端入门时间不长，又缺乏后端服务器的知识，对技术选型又没有经验，磕磕碰碰地开发了大概半年的时间，虽然网站基本功能已经具备，但是代码的扩展性太差了，加之还有很多 Bug ，对上线实在没有信心，后来参加工作后，公司的事情很多，这个网站的开发工作就停了下来。</p>\n<p>2021年春节假期很长，在家很无聊，想找点事情做，于是想起了这个网站，2月16日开始把这个网站的前端和后端又重构了一遍，平时只有工作日晚上下班之后和周末有时间开发，到4月4日的时候完成了初版，并把它部署到了阿里云上面开始测试，期间修复了很多 Bug 以及做了一些优化工作，直到5月1日正式对外上线。</p>\n<h3>技术栈选择</h3>\n<p>我是一名前端开发工程师，在做这个网站的过程中，学习到了不少服务器端的东西，因为自己是做前端的，在后端技术实现上选择了对前端开发者友好的  <code>Node.js</code>。这个网站的实现用到了很多优秀的开源作品，在这里非常感谢这些作品。</p>\n<table>\n<thead>\n<tr>\n<th>需求</th>\n<th>技术实现</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>前端框架</td>\n<td>React.js</td>\n</tr>\n<tr>\n<td>UI 框架</td>\n<td>Ant-Design</td>\n</tr>\n<tr>\n<td>文章渲染</td>\n<td>markdown-it</td>\n</tr>\n<tr>\n<td>后端框架</td>\n<td>Express</td>\n</tr>\n<tr>\n<td>数据库</td>\n<td>Mongodb</td>\n</tr>\n<tr>\n<td>数据缓存</td>\n<td>Redis</td>\n</tr>\n<tr>\n<td>日志</td>\n<td>log4js</td>\n</tr>\n<tr>\n<td>SEO</td>\n<td>puppeteer</td>\n</tr>\n</tbody>\n</table>\n<p>如果想知道更多关于这个网站的实现，欢迎在下面发表评论～</p>\n<h3>最后</h3>\n<p>上面的面试题都是平时整理的真实面试题，你能回答上来多少呢？😀 <a href=\"https://leetoffer.com/?tag=608cfa93351d214eb66ae1d0\">https://leetoffer.com/?tag=608cfa93351d214eb66ae1d0</a></p>\n</div>",
+            "title": "开发了一个整理国内互联网大厂面试题的社区网站，分享下经验",
+            "last_reply_at": "2021-05-23T08:02:35.437Z",
+            "good": false,
+            "top": false,
+            "reply_count": 0,
+            "visit_count": 107,
+            "create_at": "2021-05-23T08:02:35.437Z",
+            "author": {
+                "loginname": "leetoffer",
+                "avatar_url": "https://avatars.githubusercontent.com/u/84472559?v=4&s=120"
+            }
+        },
+        {
+            "id": "60a7c2664d20cbda996956b0",
+            "author_id": "60a7c18b4d20cb7a396956a8",
+            "tab": "share",
+            "content": "<div class=\"markdown-text\"><p><a href=\"https://github.com/c7js/c7\">https://github.com/c7js/c7</a>\nC7 是一个基于 canvas 的 UI 工具包. 它将现代前端开发的关键技术基于 HTML 的 &lt;canvas&gt; 重新实现了一遍(不借助任何第三方库), 包括:</p>\n<ul>\n<li>使用 XML 描述的 10 个常用的组件(例如: &lt;button&gt;, &lt;image&gt;, 甚至 &lt;input&gt;)</li>\n<li>Flex 布局以及常用的 CSS</li>\n<li>MVVM</li>\n<li>开箱即用的脚手架和开发服务器(支持热重载)</li>\n</ul>\n</div>",
+            "title": "基于 canvas 重新实现了 HTML / CSS / MVVM",
+            "last_reply_at": "2021-05-23T04:35:23.246Z",
+            "good": false,
+            "top": false,
+            "reply_count": 1,
+            "visit_count": 160,
+            "create_at": "2021-05-21T14:23:34.416Z",
+            "author": {
+                "loginname": "c7js",
+                "avatar_url": "https://avatars.githubusercontent.com/u/84425299?v=4&s=120"
+            }
+        },
+        {
+            "id": "607799714d20cbc44d68c484",
+            "author_id": "5c81f15090c14711cc8cb87e",
+            "tab": "share",
+            "content": "<div class=\"markdown-text\"><h3>一、Serverless相关的概念</h3>\n<p>Serverless又名无服务器,所谓无服务器并非是说不需要依赖和依靠服务器等资源,而是开发者再也不用过多考虑服务器的问题,可以更专注在产品代码上。</p>\n<p><strong>Serverless相关视频教程</strong>：<a href=\"https://www.bilibili.com/video/BV12h411Q7wz?p=2\">https://www.bilibili.com/video/BV12h411Q7wz?p=2</a></p>\n<p>Serverless是一种软件系统架构的思想和方法，它不是软件框架、类库或者工具。它与传统架构的不同之处在于，完全由第三方管理，由事件触发，存在于无状态（Stateless）、暂存（可能只存在于一次调用的过程中）计算容器内。构建无服务器应用程序意味着开发者可以专注在产品代码上，而无须管理和操作云端或本地的服务器或运行时（运行时通俗的讲就是运行环境，比如nodejs环境，java环境，php环境）。Serverless真正做到了部署应用无需涉及基础设施的建设，自动构建、部署和启动服务。</p>\n<p><strong>通俗的讲：</strong>  Serverless 是构建和运行软件时不需要关心服务器的一种架构思想。老程序员都用过虚拟主机，刚开始学Serverless 你可以把它理解为虚拟主机的升级版本。\n<img src=\"//static.cnodejs.org/FrQYaZ4ed16DDtoKnmfMeyAR6cay\" alt=\"图片1.png\"></p>\n<p>虚拟主机已经是快被淘汰掉的上一代产物了。云计算涌现出很多改变传统IT架构和运维方式的新技术，比如虚拟机、容器、微服务，无论这些技术应用在哪些场景，降低成本、提升效率是云服务永恒的主题。Serverless的出现真正的解决了降低成本、提升效率的问题。它真正做到了弹性伸缩、高并发、按需收费、备份容灾、日志监控等。</p>\n<h3>二、传统模式和ServerLess模式下项目开发上线流程</h3>\n<p><strong>传统模式</strong></p>\n<p><img src=\"//static.cnodejs.org/FkAKf0N_-FFBJeLkfHAIRIGRaHWB\" alt=\"图片2.png\"></p>\n<p><strong>Serverless模式</strong></p>\n<p><img src=\"//static.cnodejs.org/FujjnTbCFWxsoRWvYvswpvsjvIYQ\" alt=\"图片3.png\"></p>\n<p>Serverless 正在改变未来软件开发的模式和流程\n<img src=\"//static.cnodejs.org/Fo0An9-HSBIKZzNJSYGnPVFmRD4A\" alt=\"图片4.png\"></p>\n<h3>三、Serverless 和ServerFul架构的区别</h3>\n<p><strong>1、传统的ServerFul 架构模式</strong>\nServerFul 架构就是 n 台 Server 通过 网络通信 的 方式 协作在一起，也可以说 ServerFul 架构是基于 Server和 网络通信（分布式计算） 的 软件实现架构 ， Server 可以是 虚拟机 物理机 ，以及基于硬件实现的云的云服务器。\n<img src=\"//static.cnodejs.org/FtT0j6_rKqbHrH016dakycYIanzS\" alt=\"图片5.png\"></p>\n<p><strong>2、Serverless  架构模式</strong></p>\n<p>Serverless 的核心特点就是实现自动弹性伸缩和按量付费。\n<img src=\"//static.cnodejs.org/FnQRSZtlryaZQzuzlosJ0FDO2WxH\" alt=\"图片6.png\"></p>\n<p><strong>相比ServerLes相比ServerFul 有下面一些特点：</strong></p>\n<p><strong>资源分配：</strong> 在 Serverless 架构中，你不用关心应用运行的资源（比如服务配置、磁盘大小）只提供一份代码就行。</p>\n<p><strong>计费方式：</strong> 在 Serverless 架构中，计费方式按实际使用量计费（比如函数调用次数、运行时长），不按传统的执行代码所需的资源计费（比如固定 CPU）。计费粒度也精确到了毫秒级，而不是传统的小时级别。个别云厂商推出了每个月的免费额度，比如腾讯云提供了每个月40万GBs的资源使用额度和100万次调用次数的免费额度。中小企业的网站访问量不是特别大的话完全可以免费使用。</p>\n<p><strong>弹性伸缩</strong>： Serverless 架构的弹性伸缩更自动化、更精确，可以快速根据业务并发扩容更多的实例，甚至允许缩容到零实例状态来实现零费用，对用户来说是完全无感知的。而传统架构对服务器（虚拟机）进行扩容，虚拟机的启动速度也比较慢，需要几分钟甚至更久。</p>\n<p>Serverless相关视频教程：<a href=\"https://www.bilibili.com/video/BV12h411Q7wz?p=2\">https://www.bilibili.com/video/BV12h411Q7wz?p=2</a></p>\n</div>",
+            "title": "Serverless今年会火吗？",
+            "last_reply_at": "2021-05-22T18:43:09.288Z",
+            "good": false,
+            "top": false,
+            "reply_count": 17,
+            "visit_count": 2354,
+            "create_at": "2021-04-15T01:40:01.543Z",
+            "author": {
+                "loginname": "phonegap100",
+                "avatar_url": "https://avatars.githubusercontent.com/u/5773766?v=4&s=120"
+            }
+        },
+        {
+            "id": "60a059cd4d20cbe9636938f1",
+            "author_id": "50b5bc5d637ffa4155091236",
+            "tab": "ask",
+            "content": "<div class=\"markdown-text\"><p>所有尝试在移动端跨平台的方案象flutter，weex ,nativescript最后都凉凉了，是不是说明目前的移动端的性能还远远不够，等20年以后，移动端的性能跟pc持平的时候 移动端跨平台框架才能普及开来</p>\n</div>",
+            "title": "Weex退出apache孵化器 是不是说明weex也凉了",
+            "last_reply_at": "2021-05-22T07:00:32.863Z",
+            "good": false,
+            "top": false,
+            "reply_count": 18,
+            "visit_count": 9687,
+            "create_at": "2021-05-15T23:31:25.917Z",
+            "author": {
+                "loginname": "yakczh",
+                "avatar_url": "https://avatars3.githubusercontent.com/u/6591466?v=4&s=120"
+            }
+        },
+        {
+            "id": "600934dc5d04ac02c6217d36",
+            "author_id": "5a7196b9ce45d4404514656d",
+            "tab": "share",
+            "content": "<div class=\"markdown-text\"><p><img src=\"//static.cnodejs.org/Fk33iHCuWkaMpfLdjxK-67ToIwgd\" alt=\"屏幕快照 2021-01-21 下午3.57.44.png\"></p>\n<p>flarum.org很优雅，但是没有js版本。有没有nodejs开发一起做一个免费社区版，一年时间。\n初步设计，移动端优先，有兴趣留下联系方式，并提供github，一起学习。\n只是兴趣，和学习\n目标： 前端html5， 后端nodejs，后端mongodb，    纯粹点。技术栈商量决定\n时间：1年，可供社区使用</p>\n</div>",
+            "title": "flarum.org很优雅，但是没有js版本【它是php版本】。有没有童鞋一起做一个nodejs版本的",
+            "last_reply_at": "2021-05-22T02:06:52.118Z",
+            "good": false,
+            "top": false,
+            "reply_count": 13,
+            "visit_count": 1830,
+            "create_at": "2021-01-21T08:01:32.655Z",
+            "author": {
+                "loginname": "html5col",
+                "avatar_url": "https://avatars1.githubusercontent.com/u/11325151?v=4&s=120"
+            }
+        }
+    ]
+}

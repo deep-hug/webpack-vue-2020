@@ -2,6 +2,7 @@
 // 2、挂载App组件
 import Vue from 'vue';
 import App from './App.vue';
+import '../common/static/css/public.scss';
 import '@assets/style/reset.css';
 import router from './router/index.js';
 // 引入Eleent-ui

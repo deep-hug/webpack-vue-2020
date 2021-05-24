@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --config ./build/webpack.dev.config.js",
+    "mock": "webpack serve --config ./build/webpack.dev.config.js",
     "build": "webpack --config ./build/webpack.prod.config.js"
   },
   "repository": {
@@ -34,6 +35,7 @@
     "less": "^4.1.1",
     "less-loader": "^9.0.0",
     "mini-css-extract-plugin": "^1.6.0",
+    "mocker-api": "^2.8.3",
     "node-sass": "^6.0.0",
     "optimize-css-assets-webpack-plugin": "^6.0.0",
     "postcss": "^8.2.15",
@@ -52,12 +54,15 @@
     "crypto": false
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "buffer": "^6.0.3",
     "crypto-js": "^4.0.0",
     "element-ui": "^2.15.1",
     "eslint-plugin-vue": "^7.9.0",
+    "jsonc": "^2.0.0",
     "node-rsa": "^1.1.1",
     "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
     "stream-browserify": "^3.0.0",
     "terser-webpack-plugin": "^5.1.2",
     "util": "^0.12.3",

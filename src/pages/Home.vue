@@ -20,13 +20,34 @@
         <div>
             <el-button type="primary" @click="setStorage" plain>本地储存数据</el-button>
         </div>
+        <div>
+            <el-button type="primary" @click="getAddressList" plain>请求接口数据</el-button>
+        </div>
+        <div>
+            <div v-for="(item, index) in addressList" :key="index">
+                {{item.title}}
+            </div>
+        </div>
+        <div>
+            <el-button type="primary" @click="getMockData" plain>获取mock数据</el-button>
+        </div>
+        <div class="flex">
+            <div>1</div>
+            <div>2</div>
+        </div>
     </div>
 </template>
 
 <script>
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex';
 import storage from '../utils/storage.js';
+import requestsTest from '@requests/requestsTest.js';
 export default {
+    data () {
+        return {
+            addressList: [],      
+        };
+    },
     created () {
 
     },
@@ -72,6 +93,19 @@ export default {
             setTimeout(() => {
                 console.log(storage.getRequestHeader());
             }, 500);
+        },
+        getAddressList() {
+            requestsTest.getAddressList({page: 1, tab: 'good', limit: 20}).then(res => {
+                if (res && res.data && res.data.length) {
+                    console.log(res, '得到的列表');
+                    this.addressList = res.data;
+                }
+            });
+        },
+        getMockData() {
+            requestsTest.getMockData().then(res => {
+                console.log(res, 'mock数据');
+            });
         },
     }
 };

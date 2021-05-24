@@ -1,0 +1,220 @@
+/**
+ * @Author: MaxTan
+ * @Description: 公用的样式
+ * @Date: 2021/01/14 16:26:42
+ */
+ * {
+    scrollbar-arrow-color: #000000;
+    scrollbar-face-color: #868FDC;
+    scrollbar-highlight-color: #f00;
+    scrollbar-shadow-color: #868FDC;
+    scrollbar-track-color: #E8E8E8;
+}
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+// flex-1 - flex-6
+@for $i from 1 through 6 {
+    .flex-#{$i} {
+        flex: $i;
+    }
+}
+
+.flex-dc {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-ac {
+    display: flex;
+    align-items: center;
+}
+
+.flex-as {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-ae {
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex-pc {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-pe {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-ps {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-pb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-pa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-warp {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*浮动定位*/
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    font-size: 0;
+}
+
+.clear {
+    *zoom: 1;
+}
+
+.fw {
+    width: 100%;
+}
+
+// margin-top5 - margin-top20
+@for $i from 1 through 4 {
+    .margin-top#{5*$i} {
+        margin-top: 5px * $i!important;
+    }
+}
+
+// margin-l5 - margin-l20
+@for $i from 1 through 4 {
+    .margin-l#{5*$i} {
+        margin-left: 5px * $i!important;
+    }
+}
+
+// margin-btm5 - margin-btm20
+@for $i from 1 through 4 {
+    .margin-btm#{5*$i} {
+        margin-bottom: 5px * $i!important;
+    }
+}
+
+// margin-r5 - margin-r20
+@for $i from 1 through 4 {
+    .margin-r#{5*$i} {
+        margin-right: 5px * $i!important;
+    }
+}
+
+// padding-top5 - padding-top20
+@for $i from 1 through 4 {
+    .padding-top#{5*$i} {
+        padding-top: 5px * $i!important;
+    }
+}
+
+// padding-l5 - padding-l20
+@for $i from 1 through 4 {
+    .padding-l#{5*$i} {
+        padding-left: 5px * $i!important;
+    }
+}
+
+// padding-btm5 - padding-btm20
+@for $i from 1 through 4 {
+    .padding-btm#{5*$i} {
+        padding-bottom: 5px * $i!important;
+    }
+}
+
+// padding-r5 - padding-r20
+@for $i from 1 through 4 {
+    .padding-r#{5*$i} {
+        padding-right: 5px * $i!important;
+    }
+}
+
+/*一屏100%*/
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+/*顶层路由样式*/
+#app {
+    height: 100%;
+    overflow: auto;
+}
+
+/* 图片不变形 */
+.image {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+// placeholder颜色
+::placeholder {
+    color: #ccc;
+    font-family: "Microsoft YaHei";
+}
+
+iframe {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.cursor-point {
+    cursor: pointer;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.width200{
+    width:200px;
+}
+

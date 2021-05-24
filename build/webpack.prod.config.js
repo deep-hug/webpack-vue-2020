@@ -5,8 +5,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 // 引入 terser-webpack-plugin 的插件  (压缩js)
 const TerserWebpackPlugin = require('terser-webpack-plugin');
-// 导入webpack
-const webpack = require('webpack');
 const { merge } = require('webpack-merge');
 const buildConfig = {
     // 打包方式（生产环境）
@@ -40,10 +38,6 @@ const buildConfig = {
             chunkFilename: 'css/[name].[contenthash].css'
         }),
         // 定义全局数据
-        new webpack.DefinePlugin({
-            // PROJECT_NAME: '"webpack-vue-2020"',  // 项目名称
-            IS_ENCRYPT: 'true'
-        })
     ],
     optimization: {
         minimize: true,

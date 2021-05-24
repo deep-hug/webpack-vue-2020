@@ -2,6 +2,9 @@ const baseConfig = require('./webpack.base.config.js');
 const { merge } = require('webpack-merge');
 // 为了引入webpack内置的 HMR 的插件
 const webpack = require('webpack');
+// 引入mocker-api
+const apiMocker = require('mocker-api');
+const path = require('path');
 
 const devConfig = {
     // 打包方式（开发环境）
@@ -42,11 +45,21 @@ const devConfig = {
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
         // 定义全局数据
-        new webpack.DefinePlugin({
-            // PROJECT_NAME: '"webpack-vue-2020"',  // 项目名称
-            IS_ENCRYPT: 'false',
-        })
     ],
 };
-
+if (process.env.npm_lifecycle_event == 'mock') {
+    // mock环境，启用mock代理服务，不走代理
+    devConfig.devServer.before = (app) => {
+        // mock的api
+        apiMocker(app, path.resolve(__dirname, '../src/mock/api.js'));
+    };
+    devConfig.devServer.proxy = {
+        '/proxy': {
+            target: 'http://localhost: 3300',  // 代理到生产地址
+            changeOrigin: true,  // 是否跨域
+            secure: false,  // https的时候使用该参数
+            pathRewrite: {'^/proxy': ''}
+        }
+    };
+}
 module.exports = merge(baseConfig, devConfig);
