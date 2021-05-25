@@ -60,7 +60,7 @@ module.exports = {
                         options: {
                             esModule: false,  // 这里设置为false
                             limit: 8192,
-                            name: 'images/[name].[ext]',  // 占位符
+                            name: 'images/[name].[contenthash].[ext]',  // 占位符
                         }
                     }
                 ]
