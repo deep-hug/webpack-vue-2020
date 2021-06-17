@@ -35,6 +35,18 @@
             <div>1</div>
             <div>2</div>
         </div>
+        <div>
+
+            <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
+                <el-form-item label="活动名称" prop="name">
+                    <el-input v-model="ruleForm.name" ></el-input>
+                </el-form-item>
+                <el-form-item>
+                    <el-button type="primary" @click="submitForm('ruleForm')">立即创建</el-button>
+                    <el-button @click="resetForm('ruleForm')">重置</el-button>
+                </el-form-item>
+            </el-form>
+        </div>
     </div>
 </template>
 
@@ -45,7 +57,13 @@ import requestsTest from '@requests/requestsTest.js';
 export default {
     data () {
         return {
-            addressList: [],      
+            addressList: [],
+            ruleForm: {
+                name: '',
+            },
+            rules: {
+                name: { validator: this.checkName, trigger: 'blur' },
+            },
         };
     },
     created () {
@@ -106,6 +124,29 @@ export default {
             requestsTest.getMockData().then(res => {
                 console.log(res, 'mock数据');
             });
+        },
+        submitForm(formName) {
+            this.$refs[formName].validate((valid) => {
+                if (valid) {
+                    alert('submit!');
+                } else {
+                    console.log('error submit!!');
+                    return false;
+                }
+            });
+        },
+        resetForm(formName) {
+            this.$refs[formName].resetFields();
+        },
+        async checkName(rule, value, callback) {
+            if (!value) return callback(new Error('不能为空'));
+
+            if (value != 111) {
+                let res = await 1;
+                console.log(res);
+                return callback(new Error('不允许提交'));
+            }
+            callback();
         },
     }
 };
