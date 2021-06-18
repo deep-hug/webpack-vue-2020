@@ -55,11 +55,17 @@ if (process.env.npm_lifecycle_event == 'mock') {
     };
     devConfig.devServer.proxy = {
         '/proxy': {
-            target: 'http://localhost: 3300',  // 代理到生产地址
+            target: 'http://10.1.93.110',  // 代理到生产地址
             changeOrigin: true,  // 是否跨域
             secure: false,  // https的时候使用该参数
             pathRewrite: {'^/proxy': ''}
-        }
+        },
+        '/api': {
+            target: 'http://localhost: 1010',  // 代理到生产地址
+            changeOrigin: true,  // 是否跨域
+            secure: false,  // https的时候使用该参数
+            pathRewrite: {'^/api': ''}
+        },
     };
 }
 module.exports = merge(baseConfig, devConfig);

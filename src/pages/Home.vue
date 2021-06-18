@@ -31,6 +31,9 @@
         <div>
             <el-button type="primary" @click="getMockData" plain>获取mock数据</el-button>
         </div>
+        <div>
+            <el-button type="primary" @click="login" plain>登录</el-button>
+        </div>
         <div class="flex">
             <div>1</div>
             <div>2</div>
@@ -130,6 +133,11 @@ export default {
         getMockData() {
             requestsTest.getMockData().then(res => {
                 console.log(res, 'mock数据');
+            });
+        },
+        login() {
+            requestsTest.login({account: 'sfy1', password: 'sfy12345'}).then(res => {
+                console.log('登录成功------proxy（代理）成功');
             });
         },
         submitForm(formName) {
