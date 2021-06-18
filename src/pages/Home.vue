@@ -36,7 +36,6 @@
             <div>2</div>
         </div>
         <div>
-
             <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
                 <el-form-item label="活动名称" prop="name">
                     <el-input v-model="ruleForm.name" ></el-input>
@@ -47,6 +46,9 @@
                 </el-form-item>
             </el-form>
         </div>
+
+        <el-button type="text" @click="showDateChooseFlag = true">点击打开 Dialog</el-button>
+        <DateDialog :value="showDateChooseFlag" @closeDateChooseDialog="closeDateChooseDialog"></DateDialog>
     </div>
 </template>
 
@@ -54,7 +56,11 @@
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex';
 import storage from '../utils/storage.js';
 import requestsTest from '@requests/requestsTest.js';
+import DateDialog from '../components/common/TestDialog.vue';
 export default {
+    components: {
+        DateDialog,
+    },
     data () {
         return {
             addressList: [],
@@ -64,6 +70,7 @@ export default {
             rules: {
                 name: { validator: this.checkName, trigger: 'blur' },
             },
+            showDateChooseFlag: false,
         };
     },
     created () {
@@ -147,6 +154,9 @@ export default {
                 return callback(new Error('不允许提交'));
             }
             callback();
+        },
+        closeDateChooseDialog() {
+            this.showDateChooseFlag = false;
         },
     }
 };
